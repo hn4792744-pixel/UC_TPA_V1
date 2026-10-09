@@ -1,0 +1,65 @@
+# Layout file. Item name/lore come from the active language file (gui.<gui>.<item>.*).
+# Add "name:" and/or "lore:" (MiniMessage) under any item to override them for every language.
+# Every item also supports: material, slot, amount, glow, enchants: {sharpness: 1}
+# Toggle items: 'on' / 'off' sub-sections override material and glow per state.
+
+rows: 5
+filler:
+  enabled: true
+  material: BLACK_STAINED_GLASS_PANE
+
+items:
+  receive-all:
+    slot: 10
+    material: NETHER_STAR
+    on: { glow: true }
+    off: { material: RED_DYE }
+  receive-tpa:
+    slot: 11
+    material: ENDER_PEARL
+    on: { glow: true }
+    off: { material: RED_DYE }
+  receive-tpahere:
+    slot: 12
+    material: ENDER_EYE
+    on: { glow: true }
+    off: { material: RED_DYE }
+  request-alert:
+    slot: 13
+    material: BELL
+    on: { glow: true }
+    off: { material: RED_DYE }
+  actionbar:
+    slot: 14
+    material: OAK_SIGN
+    on: { glow: true }
+    off: { material: RED_DYE }
+  sounds:
+    slot: 15
+    material: NOTE_BLOCK
+    on: { glow: true }
+    off: { material: RED_DYE }
+  auto-accept:
+    slot: 16
+    material: LIME_DYE
+    on: { glow: true }
+    off: { material: RED_DYE }
+  auto-open:
+    slot: 20
+    material: CHEST
+    on: { glow: true }
+    off: { material: RED_DYE }
+  show-info:
+    slot: 22
+    material: PLAYER_HEAD
+    on: { glow: true }
+    off: { material: RED_DYE }
+  language:
+    slot: 24
+    material: BOOK
+  block-players:
+    slot: 31
+    material: IRON_BARS
+  close:
+    slot: 40
+    material: BARRIER

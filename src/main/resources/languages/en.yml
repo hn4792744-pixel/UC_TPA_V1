@@ -1,0 +1,259 @@
+# UC_TPA v1 language file (MiniMessage). Message style: TPA│ <text> <symbol>   (✓ success, × error, ! warning, • info).
+# The prefix is NOT here: set it in config.yml (prefix.*).
+# Placeholders: <player>, <seconds>, <world>, <x>, <y>, <z>, <worlds>, <page>, <pages>, <type>, <language>, <state>, <c>, <sym>.
+
+language-name: "English"
+players-only: "<#d96c6c>ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴄᴀɴ ᴏɴʟʏ ʙᴇ ᴜsᴇᴅ ʙʏ ᴘʟᴀʏᴇʀs ×"
+no-permission: "<#d96c6c>ʏᴏᴜ ᴅᴏ ɴᴏᴛ ʜᴀᴠᴇ ᴘᴇʀᴍɪssɪᴏɴ ×"
+player-not-found: "<#d9b26a>ᴘʟᴀʏᴇʀ <white><player></white> ɴᴏᴛ ғᴏᴜɴᴅ !"
+player-offline: "<#d9b26a><white><player></white> ɪs ɴᴏᴛ ᴏɴʟɪɴᴇ !"
+cannot-self: "<#d96c6c>ʏᴏᴜ ᴄᴀɴɴᴏᴛ ᴛᴇʟᴇᴘᴏʀᴛ ᴛᴏ ʏᴏᴜʀsᴇʟғ ×"
+cannot-send-self: "<#d9b26a>ʏᴏᴜ ᴄᴀɴɴᴏᴛ sᴇɴᴅ ᴀ ʀᴇǫᴜᴇsᴛ ᴛᴏ ʏᴏᴜʀsᴇʟғ !"
+request-sent-tpa: "<#7fc29b>ᴛᴇʟᴇᴘᴏʀᴛ ʀᴇǫᴜᴇsᴛ sᴇɴᴛ ᴛᴏ <white><player></white> ✓<newline><cancel>"
+request-received-tpa: "<#8aa4d6>ᴛᴇʟᴇᴘᴏʀᴛ ʀᴇǫᴜᴇsᴛ ғʀᴏᴍ <white><player></white><newline><open>"
+accepted-tpa: "<#7fc29b><white><player></white> ᴀᴄᴄᴇᴘᴛᴇᴅ ʏᴏᴜʀ ᴛᴇʟᴇᴘᴏʀᴛ ʀᴇǫᴜᴇsᴛ ✓"
+denied-tpa: "<#d96c6c><white><player></white> ᴅᴇɴɪᴇᴅ ʏᴏᴜʀ ᴛᴇʟᴇᴘᴏʀᴛ ʀᴇǫᴜᴇsᴛ ×"
+target-disabled-tpa: "<#d9b26a><white><player></white> ʜᴀs ᴛᴇʟᴇᴘᴏʀᴛ ʀᴇǫᴜᴇsᴛs ᴅɪsᴀʙʟᴇᴅ !"
+alert-tpa: "<#7fc29b>ᴛᴘᴀ <#8a8a8a>•</#8a8a8a> <white><player></white>"
+request-sent-tpahere: "<#7fc29b>ᴛᴇʟᴇᴘᴏʀᴛ ʜᴇʀᴇ ʀᴇǫᴜᴇsᴛ sᴇɴᴛ ᴛᴏ <white><player></white> ✓<newline><cancel>"
+request-received-tpahere: "<#8aa4d6>ᴛᴇʟᴇᴘᴏʀᴛ ʜᴇʀᴇ ʀᴇǫᴜᴇsᴛ ғʀᴏᴍ <white><player></white><newline><open>"
+accepted-tpahere: "<#7fc29b><white><player></white> ᴀᴄᴄᴇᴘᴛᴇᴅ ʏᴏᴜʀ ᴛᴇʟᴇᴘᴏʀᴛ ʜᴇʀᴇ ʀᴇǫᴜᴇsᴛ ✓"
+denied-tpahere: "<#d96c6c><white><player></white> ᴅᴇɴɪᴇᴅ ʏᴏᴜʀ ᴛᴇʟᴇᴘᴏʀᴛ ʜᴇʀᴇ ʀᴇǫᴜᴇsᴛ ×"
+target-disabled-tpahere: "<#d9b26a><white><player></white> ʜᴀs ᴛᴇʟᴇᴘᴏʀᴛ ʜᴇʀᴇ ʀᴇǫᴜᴇsᴛs ᴅɪsᴀʙʟᴇᴅ !"
+alert-tpahere: "<#7fc29b>ᴛᴘᴀ ʜᴇʀᴇ <#8a8a8a>•</#8a8a8a> <white><player></white>"
+you-accepted: "<#7fc29b>ʏᴏᴜ ᴀᴄᴄᴇᴘᴛᴇᴅ <white><player></white> ✓"
+you-denied: "<#d96c6c>ʏᴏᴜ ᴅᴇɴɪᴇᴅ <white><player></white> ×"
+no-pending: "<#8aa4d6>ɴᴏ ᴘᴇɴᴅɪɴɢ ᴛᴇʟᴇᴘᴏʀᴛ ʀᴇǫᴜᴇsᴛs •"
+no-request-from: "<#d9b26a>ɴᴏ ᴘᴇɴᴅɪɴɢ ʀᴇǫᴜᴇsᴛ ғʀᴏᴍ <white><player></white> !"
+blocked-by-target: "<#d96c6c>ʏᴏᴜ ᴄᴀɴɴᴏᴛ sᴇɴᴅ ʀᴇǫᴜᴇsᴛs ᴛᴏ <white><player></white> ×"
+already-pending: "<#d9b26a>ʏᴏᴜ ᴀʟʀᴇᴀᴅʏ ʜᴀᴠᴇ ᴀ ᴘᴇɴᴅɪɴɢ ʀᴇǫᴜᴇsᴛ !"
+cooldown: "<#d9b26a>ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ <seconds>s ʙᴇғᴏʀᴇ sᴇɴᴅɪɴɢ ᴀɴᴏᴛʜᴇʀ ʀᴇǫᴜᴇsᴛ !"
+request-unavailable: "<#d9b26a>ᴛʜɪs ʀᴇǫᴜᴇsᴛ ɪs ɴᴏ ʟᴏɴɢᴇʀ ᴀᴠᴀɪʟᴀʙʟᴇ !"
+cancel-unavailable: "<#d9b26a>ᴛʜɪs ʀᴇǫᴜᴇsᴛ ɪs ɴᴏ ʟᴏɴɢᴇʀ ᴀᴠᴀɪʟᴀʙʟᴇ !"
+request-cancelled-sender: "<#7fc29b>ʀᴇǫᴜᴇsᴛ ᴛᴏ <white><player></white> ᴄᴀɴᴄᴇʟʟᴇᴅ ✓"
+request-cancelled-target: "<#8aa4d6>ʀᴇǫᴜᴇsᴛ ғʀᴏᴍ <white><player></white> ᴡᴀs ᴄᴀɴᴄᴇʟʟᴇᴅ •"
+request-expired: "<#8aa4d6>ʀᴇǫᴜᴇsᴛ ғʀᴏᴍ <white><player></white> ᴇxᴘɪʀᴇᴅ •"
+request-timed-out: "<#d9b26a>ʏᴏᴜʀ ʀᴇǫᴜᴇsᴛ ᴛɪᴍᴇᴅ ᴏᴜᴛ !"
+request-left: "<#d9b26a>ʀᴇǫᴜᴇsᴛ ᴄᴀɴᴄᴇʟʟᴇᴅ ʙᴇᴄᴀᴜsᴇ <white><player></white> ʟᴇғᴛ !"
+teleporting: "<#8aa4d6>ᴛᴇʟᴇᴘᴏʀᴛɪɴɢ ᴛᴏ <white><player></white> •"
+countdown-actionbar: "<#8aa4d6>ᴛᴏ <white><player></white> <#8a8a8a>•</#8a8a8a> <#7fc29b><seconds>s"
+countdown-chat: "<#8aa4d6>ᴛᴇʟᴇᴘᴏʀᴛɪɴɢ ᴛᴏ <white><player></white> ɪɴ <seconds>s •"
+teleport-success: "<#7fc29b>ᴛᴇʟᴇᴘᴏʀᴛᴇᴅ ᴛᴏ <white><player></white> ✓"
+teleport-success-actionbar: "<#7fc29b>ᴛᴇʟᴇᴘᴏʀᴛᴇᴅ ✓"
+teleport-cancelled-moved: "<#d96c6c>ᴛᴇʟᴇᴘᴏʀᴛ ᴛᴏ <white><player></white> ᴄᴀɴᴄᴇʟʟᴇᴅ, ʏᴏᴜ ᴍᴏᴠᴇᴅ ×"
+teleport-cancelled-left: "<#d9b26a>ᴛᴇʟᴇᴘᴏʀᴛ ᴄᴀɴᴄᴇʟʟᴇᴅ ʙᴇᴄᴀᴜsᴇ <white><player></white> ʟᴇғᴛ !"
+teleport-failed: "<#d96c6c>ᴛᴇʟᴇᴘᴏʀᴛ ғᴀɪʟᴇᴅ ×"
+not-allowed-here: "<#d9b26a>ᴛᴇʟᴇᴘᴏʀᴛɪɴɢ ɪs ɴᴏᴛ ᴀʟʟᴏᴡᴇᴅ ɪɴ ᴛʜɪs ᴡᴏʀʟᴅ !"
+already-teleporting: "<#d9b26a>ᴀ ᴛᴇʟᴇᴘᴏʀᴛ ɪs ᴀʟʀᴇᴀᴅʏ ɪɴ ᴘʀᴏɢʀᴇss !"
+player-blocked: "<#7fc29b>ʏᴏᴜ ʙʟᴏᴄᴋᴇᴅ <white><player></white> ✓"
+player-unblocked: "<#7fc29b>ʏᴏᴜ ᴜɴʙʟᴏᴄᴋᴇᴅ <white><player></white> ✓"
+cannot-block-self: "<#d9b26a>ʏᴏᴜ ᴄᴀɴɴᴏᴛ ʙʟᴏᴄᴋ ʏᴏᴜʀsᴇʟғ !"
+sounds-on: "<#7fc29b>sᴏᴜɴᴅs ᴇɴᴀʙʟᴇᴅ ✓"
+sounds-off: "<#8aa4d6>sᴏᴜɴᴅs ᴅɪsᴀʙʟᴇᴅ •"
+reloaded: "<#7fc29b>ᴄᴏɴғɪɢᴜʀᴀᴛɪᴏɴ ʀᴇʟᴏᴀᴅᴇᴅ ✓"
+unknown-sub: "<#d9b26a>ᴜɴᴋɴᴏᴡɴ sᴜʙᴄᴏᴍᴍᴀɴᴅ !"
+usage-block: "<#d9b26a>ᴜsᴀɢᴇ: /uc_tpa block (name) !"
+auto-accepted-tpa: "<#7fc29b>ᴛᴇʟᴇᴘᴏʀᴛ ʀᴇǫᴜᴇsᴛ ғʀᴏᴍ <white><player></white> ᴀᴄᴄᴇᴘᴛᴇᴅ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ✓"
+auto-accepted-tpahere: "<#7fc29b>ᴛᴇʟᴇᴘᴏʀᴛ ʜᴇʀᴇ ʀᴇǫᴜᴇsᴛ ғʀᴏᴍ <white><player></white> ᴀᴄᴄᴇᴘᴛᴇᴅ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ✓"
+auto-accept-on: "<#7fc29b>ᴀᴜᴛᴏ ᴀᴄᴄᴇᴘᴛ ᴇɴᴀʙʟᴇᴅ ✓"
+auto-accept-off: "<#8aa4d6>ᴀᴜᴛᴏ ᴀᴄᴄᴇᴘᴛ ᴅɪsᴀʙʟᴇᴅ •"
+auto-accept-unavailable: "<#d9b26a>ᴀᴜᴛᴏ ᴀᴄᴄᴇᴘᴛ ɪs ɴᴏᴛ ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛʜɪs sᴇʀᴠᴇʀ !"
+usage-auto: "<#d9b26a>ᴜsᴀɢᴇ: /tpauto (on|off) !"
+target-world-disabled: "<#d9b26a><white><player></white> ɪs ɪɴ ᴡᴏʀʟᴅ <world> ᴡʜᴇʀᴇ ᴛᴇʟᴇᴘᴏʀᴛɪɴɢ ɪs ᴅɪsᴀʙʟᴇᴅ !"
+world-disabled: "<#7fc29b>ᴛᴇʟᴇᴘᴏʀᴛɪɴɢ ᴅɪsᴀʙʟᴇᴅ ɪɴ ᴡᴏʀʟᴅ <world> ✓"
+world-enabled: "<#7fc29b>ᴛᴇʟᴇᴘᴏʀᴛɪɴɢ ᴇɴᴀʙʟᴇᴅ ɪɴ ᴡᴏʀʟᴅ <world> ✓"
+world-already-disabled: "<#d9b26a>ᴛᴇʟᴇᴘᴏʀᴛɪɴɢ ɪs ᴀʟʀᴇᴀᴅʏ ᴅɪsᴀʙʟᴇᴅ ɪɴ ᴡᴏʀʟᴅ <world> !"
+world-already-enabled: "<#d9b26a>ᴛᴇʟᴇᴘᴏʀᴛɪɴɢ ɪs ᴀʟʀᴇᴀᴅʏ ᴇɴᴀʙʟᴇᴅ ɪɴ ᴡᴏʀʟᴅ <world> !"
+world-not-found: "<#d9b26a>ᴡᴏʀʟᴅ <world> ɴᴏᴛ ғᴏᴜɴᴅ !"
+world-list: "<#8aa4d6>ᴅɪsᴀʙʟᴇᴅ ᴡᴏʀʟᴅs: <worlds> •"
+world-list-empty: "<#8aa4d6>ɴᴏ ᴡᴏʀʟᴅ ʜᴀs ᴛᴇʟᴇᴘᴏʀᴛɪɴɢ ᴅɪsᴀʙʟᴇᴅ •"
+usage-world: "<#d9b26a>ᴜsᴀɢᴇ: /uc_tpa world (disable|enable|list) [world] !"
+button-open: "<bold><white>[ </white><#5fd68a>OPEN</#5fd68a><white> ]</white></bold>"
+button-cancel: "<bold><white>[ </white><#e0605e>CANCEL</#e0605e><white> ]</white></bold>"
+hover-open: "<#7fc29b>ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ ᴛʜᴇ ʀᴇǫᴜᴇsᴛ<newline><#8a8a8a>ᴇxᴘɪʀᴇs ɪɴ <#d8d8d8><seconds>s"
+hover-cancel: "<#d96c6c>ᴄʟɪᴄᴋ ᴛᴏ ᴄᴀɴᴄᴇʟ ᴛʜᴇ ʀᴇǫᴜᴇsᴛ<newline><#8a8a8a>ᴇxᴘɪʀᴇs ɪɴ <#d8d8d8><seconds>s"
+state-on: "<#7fc29b>✓ ᴇɴᴀʙʟᴇᴅ"
+state-off: "<#d96c6c>× ᴅɪsᴀʙʟᴇᴅ"
+state-blocked: "<#d96c6c>× ʙʟᴏᴄᴋᴇᴅ"
+state-allowed: "<#7fc29b>✓ ᴀʟʟᴏᴡᴇᴅ"
+type-tpa: "ᴛᴘᴀ"
+type-tpahere: "ᴛᴘᴀ ʜᴇʀᴇ"
+info-status: "<#8a8a8a>sᴛᴀᴛᴜs: <#7fc29b>ᴏɴʟɪɴᴇ"
+info-world: "<#8a8a8a>ᴡᴏʀʟᴅ: <#d8d8d8><world>"
+info-location: "<#8a8a8a>ʟᴏᴄᴀᴛɪᴏɴ: <#d8d8d8><x>, <y>, <z>"
+gui:
+  players:
+    title: "<#8a8a8a>ᴛᴘᴀ <#d8d8d8>sᴇʟᴇᴄᴛ ᴀ ᴘʟᴀʏᴇʀ"
+    head:
+      name: "<white><player>"
+      lore:
+        - "<#8a8a8a>ᴄʟɪᴄᴋ ᴛᴏ ᴄʜᴏᴏsᴇ ᴛʜɪs ᴘʟᴀʏᴇʀ"
+    previous:
+      name: "<#8a8a8a>• ᴘʀᴇᴠɪᴏᴜs ᴘᴀɢᴇ <#6b6b6b>(<page>/<pages>)"
+      lore: []
+    next:
+      name: "<#8a8a8a>• ɴᴇxᴛ ᴘᴀɢᴇ <#6b6b6b>(<page>/<pages>)"
+      lore: []
+    close:
+      name: "<#d96c6c>× ᴄʟᴏsᴇ"
+      lore: []
+  select:
+    title: "<#8a8a8a>ᴛᴘᴀ <#d8d8d8>ᴘʟᴀʏᴇʀ ᴏᴘᴛɪᴏɴs"
+    head:
+      name: "<white><player>"
+      lore: []
+    tpa:
+      name: "<#8aa4d6>• ᴛᴘᴀ"
+      lore:
+        - "<#8a8a8a>ᴀsᴋ ᴛᴏ ᴛᴇʟᴇᴘᴏʀᴛ ᴛᴏ <white><player>"
+    tpahere:
+      name: "<#8aa4d6>• ᴛᴘᴀ ʜᴇʀᴇ"
+      lore:
+        - "<#8a8a8a>ᴀsᴋ <white><player></white> ᴛᴏ ᴛᴇʟᴇᴘᴏʀᴛ ᴛᴏ ʏᴏᴜ"
+    back:
+      name: "<#8a8a8a>• ʙᴀᴄᴋ"
+      lore: []
+    close:
+      name: "<#d96c6c>× ᴄʟᴏsᴇ"
+      lore: []
+  request:
+    title: "<#8a8a8a>ᴛᴘᴀ <#d8d8d8>ᴛᴇʟᴇᴘᴏʀᴛ ʀᴇǫᴜᴇsᴛ"
+    head:
+      name: "<white><player>"
+      lore:
+        - "<#8a8a8a>ᴛʏᴘᴇ: <white><type>"
+        - "<#8a8a8a>ᴇxᴘɪʀᴇs ɪɴ: <white><seconds>s"
+    accept:
+      name: "<#7fc29b>✓ ᴀᴄᴄᴇᴘᴛ"
+      lore:
+        - "<#8a8a8a>ᴀᴄᴄᴇᴘᴛ ᴛʜɪs ʀᴇǫᴜᴇsᴛ"
+    deny:
+      name: "<#d96c6c>× ᴅᴇɴʏ"
+      lore:
+        - "<#8a8a8a>ᴅᴇɴʏ ᴛʜɪs ʀᴇǫᴜᴇsᴛ"
+    block:
+      name: "<#d9b26a>! ʙʟᴏᴄᴋ ᴘʟᴀʏᴇʀ"
+      lore:
+        - "<#8a8a8a>ᴅᴇɴʏ ᴀɴᴅ ʙʟᴏᴄᴋ <white><player>"
+    back:
+      name: "<#8a8a8a>• ʙᴀᴄᴋ"
+      lore: []
+  requests:
+    title: "<#8a8a8a>ᴛᴘᴀ <#d8d8d8>ɪɴᴄᴏᴍɪɴɢ ʀᴇǫᴜᴇsᴛs"
+    head:
+      name: "<white><player>"
+      lore:
+        - "<#8a8a8a>ᴛʏᴘᴇ: <white><type>"
+        - "<#8a8a8a>ᴇxᴘɪʀᴇs ɪɴ: <white><seconds>s"
+        - ""
+        - "<#6b6b6b>ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ"
+    close:
+      name: "<#d96c6c>× ᴄʟᴏsᴇ"
+      lore: []
+  settings:
+    title: "<#8a8a8a>ᴛᴘᴀ <#d8d8d8>sᴇᴛᴛɪɴɢs"
+    receive-all:
+      name: "<c><sym> ᴀʟʟ ʀᴇǫᴜᴇsᴛs"
+      lore:
+        - "<state>"
+        - ""
+        - "<#8a8a8a>ᴀʟʟᴏᴡ ᴏʀ ʙʟᴏᴄᴋ ᴇᴠᴇʀʏ ᴛᴇʟᴇᴘᴏʀᴛ ʀᴇǫᴜᴇsᴛ"
+        - "<#6b6b6b>ᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ"
+    receive-tpa:
+      name: "<c><sym> ᴛᴘᴀ ʀᴇǫᴜᴇsᴛs"
+      lore:
+        - "<state>"
+        - ""
+        - "<#8a8a8a>ʀᴇᴄᴇɪᴠᴇ ʀᴇǫᴜᴇsᴛs ᴛᴏ ᴛᴇʟᴇᴘᴏʀᴛ ᴛᴏ ʏᴏᴜ"
+        - "<#6b6b6b>ᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ"
+    receive-tpahere:
+      name: "<c><sym> ᴛᴘᴀ ʜᴇʀᴇ ʀᴇǫᴜᴇsᴛs"
+      lore:
+        - "<state>"
+        - ""
+        - "<#8a8a8a>ʀᴇᴄᴇɪᴠᴇ ʀᴇǫᴜᴇsᴛs ᴛᴏ ʙʀɪɴɢ ʏᴏᴜ ᴛᴏ ᴀ ᴘʟᴀʏᴇʀ"
+        - "<#6b6b6b>ᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ"
+    request-alert:
+      name: "<c><sym> ʀᴇǫᴜᴇsᴛ ᴀʟᴇʀᴛ"
+      lore:
+        - "<state>"
+        - ""
+        - "<#8a8a8a>sʜᴏʀᴛ ᴀʟᴇʀᴛ ᴀʙᴏᴠᴇ ʏᴏᴜʀ ʜᴇᴀʀᴛs ᴡʜᴇɴ ᴀ ʀᴇǫᴜᴇsᴛ ᴀʀʀɪᴠᴇs"
+        - "<#6b6b6b>ᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ"
+    sounds:
+      name: "<c><sym> sᴏᴜɴᴅs"
+      lore:
+        - "<state>"
+        - ""
+        - "<#8a8a8a>ᴛᴘᴀ sᴏᴜɴᴅs ғᴏʀ ʏᴏᴜ ᴏɴʟʏ"
+        - "<#6b6b6b>ᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ"
+    auto-open:
+      name: "<c><sym> ᴀᴜᴛᴏ ᴏᴘᴇɴ ʀᴇǫᴜᴇsᴛ ᴍᴇɴᴜ"
+      lore:
+        - "<state>"
+        - ""
+        - "<#8a8a8a>ᴏᴘᴇɴ ᴛʜᴇ ʀᴇǫᴜᴇsᴛ ᴍᴇɴᴜ ᴏɴ ᴀʀʀɪᴠᴀʟ"
+        - "<#6b6b6b>ᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ"
+    show-info:
+      name: "<c><sym> sʜᴏᴡ ᴍʏ ɪɴғᴏʀᴍᴀᴛɪᴏɴ"
+      lore:
+        - "<state>"
+        - ""
+        - "<#8a8a8a>ʟᴇᴛ ᴏᴛʜᴇʀs sᴇᴇ ʏᴏᴜʀ ᴡᴏʀʟᴅ ᴀɴᴅ ʟᴏᴄᴀᴛɪᴏɴ"
+        - "<#6b6b6b>ᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ"
+    actionbar:
+      name: "<c><sym> ᴀᴄᴛɪᴏɴʙᴀʀ ᴄᴏᴜɴᴛᴅᴏᴡɴ"
+      lore:
+        - "<state>"
+        - ""
+        - "<#8a8a8a>sʜᴏᴡ ᴛʜᴇ ᴄᴏᴜɴᴛᴅᴏᴡɴ ᴀʙᴏᴠᴇ ʏᴏᴜʀ ʜᴇᴀʀᴛs"
+        - "<#6b6b6b>ᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ"
+    auto-accept:
+      name: "<c><sym> ᴀᴜᴛᴏ ᴀᴄᴄᴇᴘᴛ"
+      lore:
+        - "<state>"
+        - ""
+        - "<#8a8a8a>ᴀᴄᴄᴇᴘᴛ ɪɴᴄᴏᴍɪɴɢ ʀᴇǫᴜᴇsᴛs ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ"
+        - "<#6b6b6b>ᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ"
+    language:
+      name: "<#8aa4d6>• ʟᴀɴɢᴜᴀɢᴇ"
+      lore:
+        - "<#8a8a8a>ᴄᴜʀʀᴇɴᴛ: <white><language>"
+        - ""
+        - "<#6b6b6b>ᴄʟɪᴄᴋ ᴛᴏ sᴡɪᴛᴄʜ"
+    block-players:
+      name: "<#8aa4d6>• ʙʟᴏᴄᴋ ᴘʟᴀʏᴇʀs"
+      lore:
+        - "<#8a8a8a>ᴍᴀɴᴀɢᴇ ᴡʜᴏ ᴄᴀɴ sᴇɴᴅ ʏᴏᴜ ʀᴇǫᴜᴇsᴛs"
+    close:
+      name: "<#d96c6c>× ᴄʟᴏsᴇ"
+      lore: []
+  block:
+    title: "<#8a8a8a>ᴛᴘᴀ <#d8d8d8>ʙʟᴏᴄᴋ ᴘʟᴀʏᴇʀs"
+    head:
+      name: "<c><sym> <player>"
+      lore:
+        - "<state>"
+        - ""
+        - "<#6b6b6b>ᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ"
+    previous:
+      name: "<#8a8a8a>• ᴘʀᴇᴠɪᴏᴜs ᴘᴀɢᴇ <#6b6b6b>(<page>/<pages>)"
+      lore: []
+    next:
+      name: "<#8a8a8a>• ɴᴇxᴛ ᴘᴀɢᴇ <#6b6b6b>(<page>/<pages>)"
+      lore: []
+    back:
+      name: "<#8a8a8a>• ʙᴀᴄᴋ"
+      lore: []
+    close:
+      name: "<#d96c6c>× ᴄʟᴏsᴇ"
+      lore: []
+help:
+  - "<gradient:#ff5a4d:#8b0000>TPA</gradient><#8a8a8a>│</#8a8a8a> <#d8d8d8>ᴄᴏᴍᴍᴀɴᴅs"
+  - "<#8a8a8a>→</#8a8a8a> <#d8d8d8>/tpa [player]</#d8d8d8> <#8a8a8a>ᴏᴘᴇɴ ᴛʜᴇ ᴛᴇʟᴇᴘᴏʀᴛ ᴍᴇɴᴜ"
+  - "<#8a8a8a>→</#8a8a8a> <#d8d8d8>/tpahere [player]</#d8d8d8> <#8a8a8a>ᴀsᴋ ᴀ ᴘʟᴀʏᴇʀ ᴛᴏ ᴄᴏᴍᴇ ᴛᴏ ʏᴏᴜ"
+  - "<#8a8a8a>→</#8a8a8a> <#d8d8d8>/tpaccept /tpadeny /tpacancel</#d8d8d8> <#8a8a8a>ᴍᴀɴᴀɢᴇ ʀᴇǫᴜᴇsᴛs"
+  - "<#8a8a8a>→</#8a8a8a> <#d8d8d8>/uc_tpa block [player]</#d8d8d8> <#8a8a8a>ʙʟᴏᴄᴋ ᴏʀ ᴜɴʙʟᴏᴄᴋ ᴀ ᴘʟᴀʏᴇʀ"
+  - "<#8a8a8a>→</#8a8a8a> <#d8d8d8>/tpauto [on|off]</#d8d8d8> <#8a8a8a>ᴀᴜᴛᴏ ᴀᴄᴄᴇᴘᴛ ʀᴇǫᴜᴇsᴛs"
+  - "<#8a8a8a>→</#8a8a8a> <#d8d8d8>/uc_tpa settings|sounds|requests|reload</#d8d8d8> <#8a8a8a>ᴘʀᴇғᴇʀᴇɴᴄᴇs"
+  - "<#8a8a8a>→</#8a8a8a> <#d8d8d8>/uc_tpa world (disable|enable|list) [world]</#d8d8d8> <#8a8a8a>ᴀᴅᴍɪɴ: ʙʟᴏᴄᴋ ᴀ ᴡᴏʀʟᴅ"

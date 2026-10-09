@@ -1,0 +1,259 @@
+# UC_TPA v1 language file (MiniMessage). Message style: TPA│ <text> <symbol>   (✓ success, × error, ! warning, • info).
+# The prefix is NOT here: set it in config.yml (prefix.*).
+# Placeholders: <player>, <seconds>, <world>, <x>, <y>, <z>, <worlds>, <page>, <pages>, <type>, <language>, <state>, <c>, <sym>.
+
+language-name: "العربية"
+players-only: "<#d96c6c>هذا الأمر للاعبين فقط ×"
+no-permission: "<#d96c6c>لا تملك الصلاحية ×"
+player-not-found: "<#d9b26a>اللاعب <white><player></white> غير موجود !"
+player-offline: "<#d9b26a><white><player></white> غير متصل !"
+cannot-self: "<#d96c6c>لا يمكنك الانتقال إلى نفسك ×"
+cannot-send-self: "<#d9b26a>لا يمكنك إرسال طلب لنفسك !"
+request-sent-tpa: "<#7fc29b>تم إرسال طلب انتقال إلى <white><player></white> ✓<newline><cancel>"
+request-received-tpa: "<#8aa4d6>طلب انتقال من <white><player></white><newline><open>"
+accepted-tpa: "<#7fc29b><white><player></white> قبل طلب انتقال الخاص بك ✓"
+denied-tpa: "<#d96c6c><white><player></white> رفض طلب انتقال الخاص بك ×"
+target-disabled-tpa: "<#d9b26a><white><player></white> عطّل استقبال طلبات انتقال !"
+alert-tpa: "<#7fc29b>TPA <#8a8a8a>•</#8a8a8a> <white><player></white>"
+request-sent-tpahere: "<#7fc29b>تم إرسال طلب انتقال إليك إلى <white><player></white> ✓<newline><cancel>"
+request-received-tpahere: "<#8aa4d6>طلب انتقال إليك من <white><player></white><newline><open>"
+accepted-tpahere: "<#7fc29b><white><player></white> قبل طلب انتقال إليك الخاص بك ✓"
+denied-tpahere: "<#d96c6c><white><player></white> رفض طلب انتقال إليك الخاص بك ×"
+target-disabled-tpahere: "<#d9b26a><white><player></white> عطّل استقبال طلبات انتقال إليك !"
+alert-tpahere: "<#7fc29b>TPA HERE <#8a8a8a>•</#8a8a8a> <white><player></white>"
+you-accepted: "<#7fc29b>لقد قبلت طلب <white><player></white> ✓"
+you-denied: "<#d96c6c>لقد رفضت طلب <white><player></white> ×"
+no-pending: "<#8aa4d6>لا توجد طلبات معلقة •"
+no-request-from: "<#d9b26a>لا يوجد طلب معلق من <white><player></white> !"
+blocked-by-target: "<#d96c6c>لا يمكنك إرسال طلبات إلى <white><player></white> ×"
+already-pending: "<#d9b26a>لديك طلب معلق بالفعل !"
+cooldown: "<#d9b26a>انتظر <seconds>s قبل إرسال طلب آخر !"
+request-unavailable: "<#d9b26a>هذا الطلب لم يعد متاحًا !"
+cancel-unavailable: "<#d9b26a>هذا الطلب لم يعد متاحًا !"
+request-cancelled-sender: "<#7fc29b>تم إلغاء الطلب إلى <white><player></white> ✓"
+request-cancelled-target: "<#8aa4d6>تم إلغاء الطلب من <white><player></white> •"
+request-expired: "<#8aa4d6>انتهت مدة الطلب من <white><player></white> •"
+request-timed-out: "<#d9b26a>انتهت مهلة طلبك !"
+request-left: "<#d9b26a>تم إلغاء الطلب لأن <white><player></white> غادر !"
+teleporting: "<#8aa4d6>جارٍ الانتقال إلى <white><player></white> •"
+countdown-actionbar: "<#8aa4d6>to <white><player></white> <#8a8a8a>•</#8a8a8a> <#7fc29b><seconds>s"
+countdown-chat: "<#8aa4d6>الانتقال إلى <white><player></white> خلال <seconds>s •"
+teleport-success: "<#7fc29b>تم الانتقال إلى <white><player></white> ✓"
+teleport-success-actionbar: "<#7fc29b>teleported ✓"
+teleport-cancelled-moved: "<#d96c6c>تم إلغاء الانتقال إلى <white><player></white> لأنك تحركت ×"
+teleport-cancelled-left: "<#d9b26a>تم إلغاء الانتقال لأن <white><player></white> غادر !"
+teleport-failed: "<#d96c6c>فشل الانتقال ×"
+not-allowed-here: "<#d9b26a>الانتقال غير مسموح في هذا العالم !"
+already-teleporting: "<#d9b26a>هناك انتقال جارٍ بالفعل !"
+player-blocked: "<#7fc29b>لقد حظرت <white><player></white> ✓"
+player-unblocked: "<#7fc29b>لقد ألغيت حظر <white><player></white> ✓"
+cannot-block-self: "<#d9b26a>لا يمكنك حظر نفسك !"
+sounds-on: "<#7fc29b>تم تفعيل الأصوات ✓"
+sounds-off: "<#8aa4d6>تم تعطيل الأصوات •"
+reloaded: "<#7fc29b>تمت إعادة تحميل الإعدادات ✓"
+unknown-sub: "<#d9b26a>أمر فرعي غير معروف !"
+usage-block: "<#d9b26a>الاستخدام: /uc_tpa block (name) !"
+auto-accepted-tpa: "<#7fc29b>تم قبول طلب انتقال من <white><player></white> تلقائيًا ✓"
+auto-accepted-tpahere: "<#7fc29b>تم قبول طلب انتقال إليك من <white><player></white> تلقائيًا ✓"
+auto-accept-on: "<#7fc29b>تم تفعيل القبول التلقائي ✓"
+auto-accept-off: "<#8aa4d6>تم تعطيل القبول التلقائي •"
+auto-accept-unavailable: "<#d9b26a>القبول التلقائي غير متاح في هذا السيرفر !"
+usage-auto: "<#d9b26a>الاستخدام: /tpauto (on|off) !"
+target-world-disabled: "<#d9b26a><white><player></white> في عالم <world> الذي عُطّل الانتقال فيه !"
+world-disabled: "<#7fc29b>تم تعطيل الانتقال في العالم <world> ✓"
+world-enabled: "<#7fc29b>تم تفعيل الانتقال في العالم <world> ✓"
+world-already-disabled: "<#d9b26a>الانتقال معطّل بالفعل في العالم <world> !"
+world-already-enabled: "<#d9b26a>الانتقال مفعّل بالفعل في العالم <world> !"
+world-not-found: "<#d9b26a>العالم <world> غير موجود !"
+world-list: "<#8aa4d6>العوالم المعطّلة: <worlds> •"
+world-list-empty: "<#8aa4d6>لا يوجد عالم معطّل •"
+usage-world: "<#d9b26a>الاستخدام: /uc_tpa world (disable|enable|list) [world] !"
+button-open: "<bold><white>[ </white><#5fd68a>فتح</#5fd68a><white> ]</white></bold>"
+button-cancel: "<bold><white>[ </white><#e0605e>إلغاء</#e0605e><white> ]</white></bold>"
+hover-open: "<#7fc29b>click to open the request<newline><#8a8a8a>expires in <#d8d8d8><seconds>s"
+hover-cancel: "<#d96c6c>click to cancel the request<newline><#8a8a8a>expires in <#d8d8d8><seconds>s"
+state-on: "<#7fc29b>✓ مفعّل"
+state-off: "<#d96c6c>× معطّل"
+state-blocked: "<#d96c6c>× محظور"
+state-allowed: "<#7fc29b>✓ مسموح"
+type-tpa: "TPA"
+type-tpahere: "TPA HERE"
+info-status: "<#8a8a8a>status: <#7fc29b>متصل"
+info-world: "<#8a8a8a>world: <#d8d8d8><world>"
+info-location: "<#8a8a8a>location: <#d8d8d8><x>, <y>, <z>"
+gui:
+  players:
+    title: "<#8a8a8a>TPA <#d8d8d8>اختر لاعبًا"
+    head:
+      name: "<white><player>"
+      lore:
+        - "<#8a8a8a>اضغط لاختيار هذا اللاعب"
+    previous:
+      name: "<#8a8a8a>• الصفحة السابقة <#6b6b6b>(<page>/<pages>)"
+      lore: []
+    next:
+      name: "<#8a8a8a>• الصفحة التالية <#6b6b6b>(<page>/<pages>)"
+      lore: []
+    close:
+      name: "<#d96c6c>× إغلاق"
+      lore: []
+  select:
+    title: "<#8a8a8a>TPA <#d8d8d8>خيارات اللاعب"
+    head:
+      name: "<white><player>"
+      lore: []
+    tpa:
+      name: "<#8aa4d6>• TPA"
+      lore:
+        - "<#8a8a8a>اطلب الانتقال إلى <white><player>"
+    tpahere:
+      name: "<#8aa4d6>• TPA HERE"
+      lore:
+        - "<#8a8a8a>اطلب من <white><player></white> الانتقال إليك"
+    back:
+      name: "<#8a8a8a>• رجوع"
+      lore: []
+    close:
+      name: "<#d96c6c>× إغلاق"
+      lore: []
+  request:
+    title: "<#8a8a8a>TPA <#d8d8d8>طلب انتقال"
+    head:
+      name: "<white><player>"
+      lore:
+        - "<#8a8a8a>النوع: <white><type>"
+        - "<#8a8a8a>ينتهي خلال: <white><seconds>s"
+    accept:
+      name: "<#7fc29b>✓ قبول"
+      lore:
+        - "<#8a8a8a>قبول هذا الطلب"
+    deny:
+      name: "<#d96c6c>× رفض"
+      lore:
+        - "<#8a8a8a>رفض هذا الطلب"
+    block:
+      name: "<#d9b26a>! حظر اللاعب"
+      lore:
+        - "<#8a8a8a>رفض وحظر <white><player>"
+    back:
+      name: "<#8a8a8a>• رجوع"
+      lore: []
+  requests:
+    title: "<#8a8a8a>TPA <#d8d8d8>الطلبات الواردة"
+    head:
+      name: "<white><player>"
+      lore:
+        - "<#8a8a8a>النوع: <white><type>"
+        - "<#8a8a8a>ينتهي خلال: <white><seconds>s"
+        - ""
+        - "<#6b6b6b>اضغط للفتح"
+    close:
+      name: "<#d96c6c>× إغلاق"
+      lore: []
+  settings:
+    title: "<#8a8a8a>TPA <#d8d8d8>الإعدادات"
+    receive-all:
+      name: "<c><sym> جميع الطلبات"
+      lore:
+        - "<state>"
+        - ""
+        - "<#8a8a8a>السماح بجميع الطلبات أو منعها"
+        - "<#6b6b6b>اضغط للتبديل"
+    receive-tpa:
+      name: "<c><sym> طلبات TPA"
+      lore:
+        - "<state>"
+        - ""
+        - "<#8a8a8a>استقبال طلبات الانتقال إليك"
+        - "<#6b6b6b>اضغط للتبديل"
+    receive-tpahere:
+      name: "<c><sym> طلبات TPA HERE"
+      lore:
+        - "<state>"
+        - ""
+        - "<#8a8a8a>استقبال طلبات الانتقال إلى لاعب"
+        - "<#6b6b6b>اضغط للتبديل"
+    request-alert:
+      name: "<c><sym> تنبيه الطلبات"
+      lore:
+        - "<state>"
+        - ""
+        - "<#8a8a8a>تنبيه قصير فوق القلوب عند وصول طلب"
+        - "<#6b6b6b>اضغط للتبديل"
+    sounds:
+      name: "<c><sym> الأصوات"
+      lore:
+        - "<state>"
+        - ""
+        - "<#8a8a8a>أصوات TPA لك فقط"
+        - "<#6b6b6b>اضغط للتبديل"
+    auto-open:
+      name: "<c><sym> فتح القائمة تلقائيًا"
+      lore:
+        - "<state>"
+        - ""
+        - "<#8a8a8a>فتح قائمة الطلب عند وصوله"
+        - "<#6b6b6b>اضغط للتبديل"
+    show-info:
+      name: "<c><sym> إظهار معلوماتي"
+      lore:
+        - "<state>"
+        - ""
+        - "<#8a8a8a>السماح للآخرين برؤية عالمك وموقعك"
+        - "<#6b6b6b>اضغط للتبديل"
+    actionbar:
+      name: "<c><sym> العد التنازلي فوق القلوب"
+      lore:
+        - "<state>"
+        - ""
+        - "<#8a8a8a>عرض العد التنازلي فوق القلوب"
+        - "<#6b6b6b>اضغط للتبديل"
+    auto-accept:
+      name: "<c><sym> القبول التلقائي"
+      lore:
+        - "<state>"
+        - ""
+        - "<#8a8a8a>قبول الطلبات الواردة تلقائيًا"
+        - "<#6b6b6b>اضغط للتبديل"
+    language:
+      name: "<#8aa4d6>• اللغة"
+      lore:
+        - "<#8a8a8a>الحالية: <white><language>"
+        - ""
+        - "<#6b6b6b>اضغط للتبديل"
+    block-players:
+      name: "<#8aa4d6>• حظر اللاعبين"
+      lore:
+        - "<#8a8a8a>تحكم فيمن يرسل لك الطلبات"
+    close:
+      name: "<#d96c6c>× إغلاق"
+      lore: []
+  block:
+    title: "<#8a8a8a>TPA <#d8d8d8>حظر اللاعبين"
+    head:
+      name: "<c><sym> <player>"
+      lore:
+        - "<state>"
+        - ""
+        - "<#6b6b6b>اضغط للتبديل"
+    previous:
+      name: "<#8a8a8a>• الصفحة السابقة <#6b6b6b>(<page>/<pages>)"
+      lore: []
+    next:
+      name: "<#8a8a8a>• الصفحة التالية <#6b6b6b>(<page>/<pages>)"
+      lore: []
+    back:
+      name: "<#8a8a8a>• رجوع"
+      lore: []
+    close:
+      name: "<#d96c6c>× إغلاق"
+      lore: []
+help:
+  - "<gradient:#ff5a4d:#8b0000>TPA</gradient><#8a8a8a>│</#8a8a8a> <#d8d8d8>الأوامر"
+  - "<#8a8a8a>→</#8a8a8a> <#d8d8d8>/tpa [player]</#d8d8d8> <#8a8a8a>فتح قائمة الانتقال"
+  - "<#8a8a8a>→</#8a8a8a> <#d8d8d8>/tpahere [player]</#d8d8d8> <#8a8a8a>اطلب من لاعب أن ينتقل إليك"
+  - "<#8a8a8a>→</#8a8a8a> <#d8d8d8>/tpaccept /tpadeny /tpacancel</#d8d8d8> <#8a8a8a>إدارة الطلبات"
+  - "<#8a8a8a>→</#8a8a8a> <#d8d8d8>/uc_tpa block [player]</#d8d8d8> <#8a8a8a>حظر أو فك حظر لاعب"
+  - "<#8a8a8a>→</#8a8a8a> <#d8d8d8>/tpauto [on|off]</#d8d8d8> <#8a8a8a>القبول التلقائي"
+  - "<#8a8a8a>→</#8a8a8a> <#d8d8d8>/uc_tpa settings|sounds|requests|reload</#d8d8d8> <#8a8a8a>التفضيلات"
+  - "<#8a8a8a>→</#8a8a8a> <#d8d8d8>/uc_tpa world (disable|enable|list) [world]</#d8d8d8> <#8a8a8a>للإدارة: تعطيل عالم"
